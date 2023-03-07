@@ -21,3 +21,6 @@ WHERE
   member_casual = "casual" AND start_station_name IS NOT NULL
 group by start_station_name order by cnt desc
 limit 15;
+
+## analysis and combination
+take cleaned and trimmed workbooks with pivot tables and combine as needed for selected insights
